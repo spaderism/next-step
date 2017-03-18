@@ -50,6 +50,7 @@ public class HttpRequestUtils {
     }
 
     public static Pair parseHeader(String header) {
+    	System.out.println(header);
         return getKeyValue(header, ": ");
     }
 
